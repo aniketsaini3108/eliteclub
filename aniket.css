@@ -1,0 +1,257 @@
+.gradient-background {
+    background: linear-gradient(300deg, #131313, #535050, #040404);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  .text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: #968768!important;
+}
+.lead{
+  color: #968768;
+}
+.categories-container{
+
+  display: grid;
+  background-color: black;
+  gap: 11rem ;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  row-gap: 20px;
+  grid-template-columns:  0.25fr 0.25fr;
+  grid-template-rows:0.25fr 0.25fr;
+justify-content: center;
+}
+
+#categories{
+  background-color: black;
+}
+
+.tshirt > img{
+  border-radius: 5%;
+}
+.shirt > img{
+  border-radius: 5%;
+}
+.jeans > img{
+  border-radius: 5%;
+}
+.hodie > img{
+  border-radius: 5%;
+}
+
+.tshirt > h1{
+  color: rgb(246, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-family: serif;
+ font-weight:bold;
+ font-style:normal;
+
+ 
+}
+.shirt > h1{
+  color: rgb(246, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-family: serif;
+ font-weight:bold;
+ font-style:normal;
+ 
+}
+.jeans > h1{
+  color: rgb(246, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-family: serif;
+ font-weight:bold;
+ 
+ 
+}
+.hodie > h1{
+  color: rgb(246, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-family: serif;
+ font-weight:bold;
+ 
+ 
+}
+.categories-box{
+  position:static ;
+  background-color: black;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+}
+
+
+.carousel-inner{
+  background-color: black;
+display: flex;
+justify-content: center;
+padding-right: 35%;
+
+}
+
+
+/*media queries*/
+
+
+
+
+@media  (max-width: 800px) {
+  .categories-container{
+
+    display: grid;
+    background-color: rgb(5, 5, 5);
+    gap: 1rem ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    row-gap: 20px;
+    grid-template-columns:  180px 180px; 
+    grid-template-rows:180px 180px ;
+  justify-content: center;
+  }
+  .tshirt > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .shirt > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .jeans > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .hodie > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .carousel-inner{
+    background-color: black;
+ 
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+  }
+  .active > img{
+    height: 350px;
+  }
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+  }
+  
+ 
+
+}
+
+
+@media (min-width:801px) and (max-width: 1400px) {
+  .categories-container{
+
+    display: grid;
+    background-color: rgb(5, 5, 5);
+    gap: 1rem ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    row-gap: 20px;
+    grid-template-columns:  360px 360px; 
+    grid-template-rows:360px 360px ;
+  justify-content: center;
+  }
+  .tshirt > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .shirt > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .jeans > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+  .hodie > h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+   font-family: serif;
+  }
+    .active > img{
+    height: 350px;
+    
+  }
+  .carousel-inner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+  }
+  .carousel-inner{
+    background-color: black;
+ 
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+  }
+  .active > img{
+    height: 400px;
+  }
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -70%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+  }
+  
+
+
+
+}
+
